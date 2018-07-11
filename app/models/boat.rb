@@ -3,7 +3,7 @@ class Boat < ActiveRecord::Base
   has_many    :boat_classifications
   has_many    :classifications, through: :boat_classifications
 
-  def first_five
+  def self.first_five
   end
 
   def dinghy
@@ -18,7 +18,7 @@ class Boat < ActiveRecord::Base
   def without_a_captain
   end
 
-  def sailboats 
+  def sailboats
   end
 
   def with_three_classifications
