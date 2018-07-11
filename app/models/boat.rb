@@ -15,4 +15,7 @@ class Boat < ActiveRecord::Base
   def ast_three_alphabetically
   end
 
+  def without_a_captain
+  end
+
 end
