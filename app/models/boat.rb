@@ -18,7 +18,7 @@ class Boat < ActiveRecord::Base
   def without_a_captain
   end
 
-  def sailboats
+  def sailboats 
   end
 
   def with_three_classifications
