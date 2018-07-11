@@ -8,4 +8,8 @@ class Boat < ActiveRecord::Base
 
   def dinghy
   end
+
+  def ship
+  end
+
 end
