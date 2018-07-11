@@ -12,4 +12,7 @@ class Boat < ActiveRecord::Base
   def ship
   end
 
+  def ast_three_alphabetically
+  end
+
 end
