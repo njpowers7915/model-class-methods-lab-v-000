@@ -5,6 +5,7 @@ class Boat < ActiveRecord::Base
 
   def self.first_five
     first(5)
+    binding.pry
   end
 
   def self.dinghy
