@@ -4,24 +4,25 @@ class Boat < ActiveRecord::Base
   has_many    :classifications, through: :boat_classifications
 
   def self.first_five
+    find(5)
   end
 
-  def dinghy
+  def self.dinghy
   end
 
-  def ship
+  def self.ship
   end
 
-  def ast_three_alphabetically
+  def self.ast_three_alphabetically
   end
 
-  def without_a_captain
+  def self.without_a_captain
   end
 
-  def sailboats
+  def self.sailboats
   end
 
-  def with_three_classifications
+  def self.with_three_classifications
   end
 
 end
