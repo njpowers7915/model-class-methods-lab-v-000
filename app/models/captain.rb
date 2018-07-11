@@ -3,4 +3,13 @@ class Captain < ActiveRecord::Base
 
   def catamaran_operators
   end
+
+  def sailors
+  end
+
+  def talented_seafarers
+  end
+
+  def non_sailors
+  end
 end
